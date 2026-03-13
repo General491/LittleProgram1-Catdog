@@ -51,7 +51,7 @@ python run_camera.py
 可以尝试修改各种参数、更换数据集来进行训练，还可以使用YOLO系列的各种模型，包括最新的YOLOv11和YOLO26！
 
 🔥 第5步：用 train 数据集训练你自己的 .pt 权重
-数据集请在群文件中获取。
+数据集请解压Datasets_catdog.zip。
 训练脚本为run_train.py，它会自动执行训练任务。
 在 (yolo_env) 环境里直接执行：
 python run_train.py
@@ -61,3 +61,4 @@ python run_train.py --model 你的权重文件.pt
 
 
 训练完成后，使用你新得到的best.pt替换预测脚本中的权重路径即可。
+
